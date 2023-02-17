@@ -3,13 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Navbar from './Navbar.js';
+import Buttons from './components/Buttons.js';
+import BarAnimation from './components/BarAnimation.js';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <React.StrictMode>
   <Navbar />
-  <App />
+  {/* <App /> */}
+  <Buttons />
+  <BarAnimation />
  </React.StrictMode>
 );
 
