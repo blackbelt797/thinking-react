@@ -1,7 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="175" height="217" viewBox="0 0 175 217">
+
   <g id="Group_6" data-name="Group 6" transform="translate(-2290 -563)">
-    <path id="Path_7" data-name="Path 7" d="M19,0A19,19,0,0,1,38,19V144a19,19,0,0,1-38,0V19A19,19,0,0,1,19,0Z" transform="translate(2290 563)" fill="#efd33f"/>
-    <path id="Path_6" data-name="Path 6" d="M19.5,0A19.5,19.5,0,0,1,39,19.5v124a19.5,19.5,0,0,1-39,0V19.5A19.5,19.5,0,0,1,19.5,0Z" transform="translate(2358 617)" fill="#f27c7c"/>
+  <!-- Yellow Bar -->
+    <path class="color-bars" id="Path_7" data-name="Path 7" d="M19,0A19,19,0,0,1,38,19V144a19,19,0,0,1-38,0V19A19,19,0,0,1,19,0Z" transform="translate(2290 563)" fill="#efd33f"/>
+    <!-- Red Bar -->
+    <path class="color-bars" id="Path_6" data-name="Path 6" d="M19.5,0A19.5,19.5,0,0,1,39,19.5v124a19.5,19.5,0,0,1-39,0V19.5A19.5,19.5,0,0,1,19.5,0Z" transform="translate(2358 617)" fill="#f27c7c"/>
+    <!-- Blue Bar -->
     <rect id="Rectangle_14" data-name="Rectangle 14" width="38" height="163" rx="19" transform="translate(2427 563)" fill="#5092e9"/>
   </g>
 </svg>
