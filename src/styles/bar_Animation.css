@@ -1,19 +1,41 @@
 
 
 
-.Bar__Animation {
-	animation-name: slidin;	
+/* .Bar__Animation {
+	animation-name: slidein;	
 	animation-duration: 3s;
 	animation-iteration-count: 1;
-}
-@keyframes slidein {
+} */
+/* @keyframes slidein {
   from {
     margin-left: 100%;
-    width: 300%;
+    width: 20%;
   }
 
   to {
     margin-left: 0%;
     width: 100%;
   }
+} */
+/* .Bar__Animation{
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+} */
+rect {
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+} 
+
+
+@keyframes bounce {
+
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: 20%;
+  }
+  
 }
